@@ -1,0 +1,6 @@
+-main Bifroest
+
+-js build/bifroest.js
+-D js-flatten
+-D js-es5
+-dce full

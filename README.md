@@ -1,2 +1,2 @@
 # bifroest
-Experimental game engine for flow based programming. 
+Experimental engine for flow based programming with Haxe. 
