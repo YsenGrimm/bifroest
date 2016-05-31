@@ -2,7 +2,7 @@ package ;
 
 import js.Browser;
 
-import bifroest.Canvas;
+import bifroest.renderer.Canvas;
 import bifroest.utils.Vector2D;
 import bifroest.graph.Node;
 import bifroest.graph.Graph;

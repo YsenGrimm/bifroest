@@ -4,3 +4,4 @@
 -D js-flatten
 -D js-es5
 -dce full
+-debug

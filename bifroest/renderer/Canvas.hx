@@ -1,4 +1,4 @@
-package bifroest;
+package bifroest.renderer;
 
 import js.html.HTMLDocument;
 import js.html.CanvasElement;
@@ -6,7 +6,6 @@ import js.html.CanvasRenderingContext2D;
 import js.Browser;
 
 import bifroest.utils.Vector2D;
-import bifroest.graph.GraphRenderer;
 import bifroest.graph.Graph;
 
 class Canvas

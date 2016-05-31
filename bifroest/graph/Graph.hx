@@ -9,6 +9,7 @@ class Graph {
     }
 
     public function addNode(name : String, node : Node) : Void {
+        node.name = name;
         nodes.set(name, node);
     }
 
