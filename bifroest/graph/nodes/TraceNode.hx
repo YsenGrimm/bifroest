@@ -6,7 +6,7 @@ class TraceNode extends Node {
     public function new() {
         super();
 
-        var tracePort = new Port();
+        var tracePort = new Port(this);
         tracePort.registerIn(traceInput);
         inPorts.set("in", tracePort);
     }

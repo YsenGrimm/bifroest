@@ -29,25 +29,25 @@ class Vector2D {
             return new Vector2D(x, y);
         }
 
-        public function subVec(v) : Vector2D {
+        public function subVec(v : Vector2D) : Vector2D {
             var x = this.x - v.x;
             var y = this.y - v.y;
             return new Vector2D(x, y);
         }
 
-        public function subSkalar(s) : Vector2D {
+        public function subSkalar(s : Float) : Vector2D {
             var x = this.x - s;
             var y = this.y - s;
             return new Vector2D(x, y);
         }
 
-        public function divSkalar(d) : Vector2D {
+        public function divSkalar(d : Float) : Vector2D {
             var x = this.x / d;
             var y = this.y / d;
             return new Vector2D(x, y);
         }
 
-        public function multSkalar(s) : Vector2D {
+        public function multSkalar(s : Float) : Vector2D {
             var x = this.x * s;
             var y = this.y * s;
             return new Vector2D(x, y);

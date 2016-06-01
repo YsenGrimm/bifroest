@@ -7,7 +7,7 @@ class ScalarNode extends Node {
     public function new(scalar : Float) {
         super();
         val = scalar;
-        var outPort = new Port();
+        var outPort = new Port(this);
         outPort.registerOut(sendScalar);
         outPorts.set("out", outPort);
     }

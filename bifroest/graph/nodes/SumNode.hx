@@ -10,9 +10,9 @@ class SumNode extends Node {
 
         val = 0;
 
-        var portA = new Port();
-        var portB = new Port();
-        var outPort = new Port();
+        var portA = new Port(this);
+        var portB = new Port(this);
+        var outPort = new Port(this);
 
         portA.registerIn(valInput);
         portB.registerIn(valInput);
